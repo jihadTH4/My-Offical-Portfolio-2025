@@ -391,10 +391,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .border {
-    border-style: var(--tw-border-style);
-    border-width: 1px;
-  }
   .border-4 {
     border-style: var(--tw-border-style);
     border-width: 4px;
@@ -1033,8 +1029,8 @@ html {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 5rem;
   background: white;
   color: #374151;
   cursor: pointer;
@@ -1070,25 +1066,6 @@ html {
 }
 .justify-center {
   direction: ltr;
-}
-.language-switcher {
-  position: relative;
-}
-.language-switcher button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-  background: white;
-  color: #374151;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-.language-switcher button:hover {
-  border-color: #3b82f6;
-  color: #3b82f6;
 }
 @property --tw-rotate-x {
   syntax: "*";
