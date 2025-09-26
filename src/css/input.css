@@ -129,13 +129,15 @@ html {
   position: absolute;
   bottom: -2px;
   left: 0;
+  transform: scale(0);
   width: 0;
   height: 2px;
   background: #3b82f6;
-  transition: width 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .nav-link:hover::after {
+  transform: scale(100%);
   width: 100%;
 }
 
