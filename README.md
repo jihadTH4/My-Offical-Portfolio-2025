@@ -24,7 +24,7 @@ Designed to be fully responsive and user-friendly, with a focus on clean design 
 
 ## 🌐 Live Demo
 
-[Check it out here!](https://your-vercel-link.vercel.app/)
+[Check it out here!](https://my-offical-portfolio-2025-o7q1.vercel.app/)
 
 ## 📂 Projects Featured
 
